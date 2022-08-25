@@ -1,0 +1,89 @@
+.experience__container {
+  gap: 15%;
+}
+
+.experience__cards{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1.5rem;
+}
+
+.experience__card {
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.experience__card:hover {
+background: transparent;
+border-color: var(--color-primary-variant);
+cursor:crosshair;
+}
+
+.experience__icon {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.experience__card small {
+  font-size:  0.8rem;
+  color: var(--color-light);
+}
+
+.experience__btn {
+  margin-top: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+svg {
+  color: white;
+}
+
+
+/* ============ MEDIA QUIERIES (MEDIUM) ============ */
+
+@media screen and (max-width: 1024px){
+  .experience__container{
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .experience__me {
+    width: 50%;
+    margin: 2rem, auto, 4rem;
+  }
+
+  .experience__content {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+/* ============ MEDIA QUIERIES (SMALL) ============ */
+
+@media screen and (max-width: 600px){
+  .experience__me{
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+
+  .experience__cards{
+    width: 50%;
+    grid-template-columns: 2fr;
+    gap: 1rem;
+    margin: auto;
+  }
+
+  .experience__content {
+    text-align: center;
+  }
+
+  .experience__content p {
+    margin: 1.5rem 0;
+  }
+}
