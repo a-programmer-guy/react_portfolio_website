@@ -33,7 +33,7 @@
 
 .about__cards{
   display: grid;
-  grid-template-columns: (repeat(3, 1fr));
+  /* grid-template-columns: (repeat(3, 1fr)); */
   gap: 1.5rem;
 }
 
@@ -44,6 +44,7 @@
   padding: 2rem;
   text-align: center;
   transition: var(--transition);
+  display: inline-block;
 }
 
 .about__card:hover {
@@ -72,6 +73,9 @@ cursor:crosshair;
   margin-top: 1rem;
 }
 
+h2 {
+  margin-bottom: 1rem;
+}
 /* ============ MEDIA QUIERIES (MEDIUM) ============ */
 
 @media screen and (max-width: 1024px){
@@ -83,7 +87,7 @@ cursor:crosshair;
   .about__cards{
     display: grid;
     grid-template-columns: 1fr;
-    width: 98%;
+    width: 100%;
     gap: 1.5rem;
   }
 
@@ -106,7 +110,7 @@ cursor:crosshair;
   }
 
   .about__cards{
-    width: 50%;
+    width: 100%;
     grid-template-columns: 1fr;
     gap: 1rem;
     margin: auto;
@@ -119,4 +123,5 @@ cursor:crosshair;
   .about__content p {
     margin: 1.5rem 0;
   }
+
 }
