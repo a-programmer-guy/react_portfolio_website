@@ -18,7 +18,7 @@ const Experience = () => {
           <div className='experience__content'>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__icon' />
-              <h4>JavaScript</h4>
+              <div><h4>JavaScript</h4></div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__icon' />
@@ -34,21 +34,67 @@ const Experience = () => {
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__icon' />
-              <h4>Bootstrap</h4>
+              <div>
+                <h4>Bootstrap</h4>
+                <small className='text-light'>And ReactStrap</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__icon' />
-              <h4>Selenium</h4>
+              <div>
+                <h4>Selenium</h4>
+                <small className='text-light'>With TestNG and Cucumber</small>
+              </div>
             </article>
-            </div>
           </div>
-          <div className='experience__backend'>
+        </div>
+        <div className='experience__backend'>
+          <h3>Backend Development</h3>
+          <div className='experience__content'>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__icon' />
+              <div>
+                <h4>Java</h4>
+                <small className='text-light'>With Spring Boot</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__icon' />
+              <div>
+                <h4>Python</h4>
+                <small className='text-light'>With Flask</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__icon' />
+              <h4>NodeJS</h4>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__icon' />
+              <h4>PHP</h4>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__icon' />
+              <div>
+                <h4>SQL</h4>
+                <small className='text-light'>PostgreSQL, MySQL, SQAlchemy</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__icon' />
+              <div>
+                <h4>NoSQL</h4>
+                <small className='text-light'>MongoDB</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__icon' />
+              <h4>Swagger UI</h4>
+            </article>
+          </div>
 
-
-          </div>
-          < div className='experience__btn'>
-            <a href='#contact' className='btn btn-primary'>Let's Talk!</a>
-          </div>
+        </div>
+          <a href='#contact' className='btn btn-primary'>Let's Talk!</a>
       </div>
     </section>
   )

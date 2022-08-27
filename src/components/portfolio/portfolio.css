@@ -9,6 +9,7 @@
   padding: 1.3rem;
   border-radius: 2rem;
   transition: var(--transition);
+  text-align: center;
 }
 
 .portfolio__item:hover {
