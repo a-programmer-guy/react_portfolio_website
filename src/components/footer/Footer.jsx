@@ -14,9 +14,9 @@ const Footer = () => {
         <li><a href='#contact'>Contact</a></li>
       </ul>
 
-      <div className='footer__socials'>
+      {/* <div className='footer__socials'>
         <a href='https://www.linkedin.com/in/kaylan-horne-373999182'><BsLinkedin /></a>
-      </div>
+      </div> */}
       <div className='footer__copyright'>
         <small>&copy; Kaylan Horne - Ctrl-Kay. All rights reserved.</small>
       </div>

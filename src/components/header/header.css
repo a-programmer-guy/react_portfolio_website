@@ -1,6 +1,7 @@
 header {
   padding-top: 5rem;
   margin-bottom: 5rem;
+  height: 100vh;
 }
 
 .header__container {

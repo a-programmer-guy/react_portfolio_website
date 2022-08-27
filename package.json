@@ -1,5 +1,6 @@
 {
   "name": "react-portfolio-website",
+  "homepage": "https://ctrl-k.net",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
